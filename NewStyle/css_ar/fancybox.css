@@ -1,0 +1,201 @@
+/* Gallary Style */
+.work-item {
+    /*float: left;
+        width: 22.3%;
+        position: relative;
+        margin: 1%;
+        padding: .4%;
+        border: 0px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 2px 16px rgba(0,0,0,.25);
+        box-shadow: 0 2px 16px rgba(0,0,0,.25);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        position: relative;*/
+    float: right;
+    /*width: 30%;*/
+    position: relative;
+    margin: 1%;
+    /* padding: .4%; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* -webkit-box-shadow: 0 2px 16px rgba(0,0,0,.25); */
+    /* box-shadow: 0 2px 14px rgba(0,0,0,.25); */
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    position: relative;
+}
+
+    .work-item > img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+
+.overlay {
+    /*background-color: rgb(8, 107, 56);*/
+    /*background:linear-gradient(to left, #55434636, #45505bc2) !important;*/
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)) !important;
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 450ms ease-out 0s;
+    -moz-transition: all 450ms ease-out 0s;
+    -o-transition: all 450ms ease-out 0s;
+    transition: all 450ms ease-out 0s;
+    /*-webkit-transform: rotateY(180deg) scale(0.5,0.5);
+        -moz-transform: rotateY(180deg) scale(0.5,0.5);
+        -ms-transform: rotateY(180deg) scale(0.5,0.5);
+        -o-transform: rotateY(180deg) scale(0.5,0.5);
+        transform: rotateY(180deg) scale(0.5,0.5);*/
+}
+
+.fa-lg {
+    font-size: 2.33333333em;
+    line-height: 2.75em;
+    vertical-align: -15%;
+    color: white;
+}
+
+.work-item:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: rotateY(0deg) scale(1,1);
+    -moz-transform: rotateY(0deg) scale(1,1);
+    -ms-transform: rotateY(0deg) scale(1,1);
+    -o-transform: rotateY(0deg) scale(1,1);
+    transform: rotateY(0deg) scale(1,1);
+}
+
+.work-item .overlay a {
+    /*border: 1px solid #fff;*/
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20%;
+    padding: 7px 10px;
+}
+
+    .work-item .overlay a:hover {
+        color: #fff;
+    }
+
+.work-item .overlay h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 25px 0 8px;
+}
+
+.work-item .overlay p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: #008CBA; */
+    overflow: hidden;
+    width: 100%;
+    /* height: 60px; */
+    /* transition: .5s ease; */
+    background: rgba(0, 0, 0, 0.47);
+    color: white;
+    opacity: 1;
+    transition: 0.4s;
+    text-align: center;
+    padding: 10px;
+}
+
+/* End Gallary Style */
+
+.fancybox-close {
+    position: fixed;
+    font-size: 35px;
+    font-weight: 300;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: #fff;
+    top: 2.5rem;
+    right: 2.5rem;
+    line-height: 70px;
+    border: none;
+    text-align: center;
+    text-shadow: none;
+    z-index: 8888;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    background-image: url(../vgallery/images/fb/Close.png) !important;
+    background-size: cover !important;
+}
+
+.fancybox-prev span {
+    background-image: url(../vgallery/images/fb/Left2.png) !important;
+    background-size: cover !important;
+    background-position: center;
+}
+
+.fancybox-next span {
+    background-image: url(../vgallery/images/fb/Right2.png) !important;
+    background-size: cover !important;
+    background-position: center;
+}
+
+.fancybox-nav span {
+    visibility: unset !important;
+    width: 60px;
+    height: 60px;
+}
+
+.fancybox-nav {
+    position: fixed;
+}
+
+.fancybox-title-float-wrap .child {
+  /*  font-family: 'Gotham SSm M', Montserrat,sans-serif;*/
+    display: inline-block;
+    margin-right: -100%;
+    padding: 2px 20px;
+    background: transparent;
+    background: rgb(52, 52, 52);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-shadow: 0 1px 2px #222;
+    color: #FFF;
+    font-weight: normal !important;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+
+@media (max-width: 768px) {
+
+    .work-item {
+        width: unset;
+    }
+
+    .fancybox-nav span {
+        width: 30px;
+        height: 30px;
+    }
+
+    .fancybox-close {
+        width: 40px;
+        height: 40px;
+        right: 1.5rem;
+    }
+}

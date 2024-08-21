@@ -1,0 +1,265 @@
+
+@media (max-width: 768px) {
+    .hideMobile {
+        display: none;
+    }
+
+    .ShowMobile {
+        display: block;
+    }
+
+
+}
+
+@media screen and (min-width: 600px) {
+    .hideMobileGift {
+        display: block;
+    }
+
+    .ShowMobileGift {
+        display: none ;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .hideMobileGift {
+        display: none;
+    }
+
+    .ShowMobileGift {
+        display: block;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 769px) {
+    .hideMobile {
+        display: flex;
+    }
+
+    .ShowMobile {
+        display: none;
+    }
+
+
+
+}
+
+
+@media (max-width: 768px) {
+    .hideMobileNew {
+        display: none;
+    }
+  
+ 
+
+
+}
+
+@media screen and (min-width: 769px) {
+    .hideMobileNew {
+        display: block;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+
+
+    .poster {
+        height: 330px;
+    }
+
+
+      #faq-list .span {
+         display:none ;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+
+    body {
+        font-size: 12px !important;
+    }
+
+    .section-header h3 {
+        font-size: 16px !important;
+    }
+
+    /*Top img*/
+
+    .poster h3 {
+        font-size: 14px !important;
+    }
+
+    .poster__content {
+        font-size: 14px !important;
+    }
+
+    .rslides1_nav {
+        /*top:25%;*/
+    }
+
+    /*about us*/
+    #about .about-col h2 {
+        font-size: 14px !important;
+    }
+
+    #about .about-col p {
+        font-size: 14px !important;
+    }
+
+    /*News*/
+    #testimonials .testimonial-item h3 {
+        font-size: 14px !important;
+    }
+
+    #testimonials .testimonial-item p {
+        font-size: 14px !important;
+    }
+
+    #testimonials .testimonial-item h4 {
+        font-size: 14px !important;
+    }
+
+    #testimonials .cta-btn {
+        font-size: 14px !important;
+    }
+    /*MAp*/
+    .countryTitle {
+        font-size: 14px !important;
+        font-weight: bold !important;
+    }
+
+    #facts .counters p {
+        font-size: 14px !important;
+    }
+
+    #call-to-action .section-Summery h3 {
+        font-size: 14px !important;
+    }
+
+    ul.timeline > li > .timeline-badge {
+        font-size: 14px !important;
+    }
+
+    .timeline-title {
+        font-size: 14px !important;
+    }
+
+    /*Story*/
+    .videoTitle {
+        font-size: 14px !important;
+    }
+
+    /*OtherSite*/
+    #OtherSite .text {
+        font-size: 14px !important;
+    }
+
+    /*footer*/
+    #footer .footer-top .footer-info h3 {
+        font-size: 16px !important;
+    }
+
+    /*footer*/
+    .CallCenter {
+        font-size: 12px;
+    }
+
+
+    .accInfoDetails {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+}
+
+
+@media (max-width: 360px) {
+
+    .accInfoDetails {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+
+    .accInfoDetails {
+        font-size: 14px;
+        letter-spacing:7px;
+    }
+
+
+}
+
+@media only screen 
+and (min-device-width : 990px) 
+and (max-device-width : 1200px)  { 
+
+       #factsDonor .counters i {
+  
+    top: 35px;
+    font-size: 30px;
+ 
+}
+
+}
+
+@media (max-width: 1200px) {
+    #mc-shopcart {
+       left: 50px;
+    }
+   
+   
+}
+
+
+
+/*Menu Mobile new*/
+@media screen and (min-width: 1201px) {
+
+
+    /*show top menu*/
+    .HideMenuMobile {
+        display: block;
+    }
+
+    /*hide top menu*/
+    .ShowMenuMobile {
+        display: none;
+    }
+/*
+    #intro {
+        height: 110px !important;
+    }*/
+}
+
+
+@media (max-width: 1200px) {
+    /*hide top menu*/
+    .HideMenuMobile {
+        display: none;
+    }
+ 
+    /*show  top menu*/
+    .ShowMenuMobile {
+        display: block;
+    }
+    #intro {
+        height: 94px !important;
+    }
+ 
+}
